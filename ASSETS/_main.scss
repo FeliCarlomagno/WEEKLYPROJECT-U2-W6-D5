@@ -32,4 +32,7 @@
 .carousel {
   display: flex;
   justify-content: center;
+  .carousel-item p {
+    color: $text-color;
+  }
 }
