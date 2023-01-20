@@ -1,0 +1,35 @@
+#article-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  .text {
+    display: flex;
+    justify-content: space-around;
+  }
+  .bg-container {
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+  .contentT-left,
+  .contentT-right {
+    color: white;
+  }
+  .contentT-right p {
+    font: {
+      weight: 600;
+      size: 1.1em;
+    }
+  }
+  .contentT-left p {
+    width: 10em;
+    opacity: 20%;
+    text-align: center;
+  }
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+}

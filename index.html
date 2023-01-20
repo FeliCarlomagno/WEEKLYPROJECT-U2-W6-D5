@@ -11,6 +11,16 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./ASSETS/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Glory:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -19,14 +29,101 @@
           src="./ASSETS/IMAGES/c28747d4-c315-4ae8-8c7b-5ac8a12a85da.png"
           alt="Logo"
         />
-        <ul>
-          <li>HOME</li>
-          <li>CHI SONO</li>
-          <li>SERVIZI</li>
-          <li>COME LAVORO</li>
-        </ul>
+        <div class="ul-container">
+          <ul>
+            <li>Soluzioni</li>
+            <li>Chi siamo</li>
+            <li>Clienti</li>
+            <li>Abbonamenti</li>
+          </ul>
+          <div class="icon-container">
+            <i class="bi bi-youtube"></i>
+            <i class="bi bi-windows"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-twitter"></i>
+          </div>
+        </div>
       </nav>
     </header>
+    <main>
+      <div id="article-container">
+        <div class="text">
+          <div class="contentT-left">
+            <p>Scegli il top dei servizi di musica streaming</p>
+          </div>
+          <div class="contentT-right">
+            <p>800M+ podcast</p>
+          </div>
+        </div>
+        <div class="bg-container">
+          <img
+            src="./ASSETS/IMAGES/9242abec-8e1d-40f7-b9cc-ec8dcaa594f2.png"
+            alt="star"
+          />
+          <p>sound</p>
+        </div>
+      </div>
+      <!--carousel---->
+      <div class="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide w-25 rounded">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./ASSETS/IMAGES/portrait-beautiful-young-woman-standing-grey-wall.jpg"
+                class="d-block w-100 rounded-3"
+                alt="experience"
+              />
+            </div>
+            <div class="carousel-item">
+              <img src="..." class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="..." class="d-block w-100" alt="..." />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"

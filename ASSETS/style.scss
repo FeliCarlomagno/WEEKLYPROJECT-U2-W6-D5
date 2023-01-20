@@ -1,6 +1,13 @@
 @import "reset";
+@import "colors";
 @import "navbar";
+@import "main";
 
 body {
-  background-color: #f4fbfb;
+  background-color: $body-color;
+  font-family: "Glory", sans-serif;
+}
+
+#project-container {
+  margin: 1em;
 }
