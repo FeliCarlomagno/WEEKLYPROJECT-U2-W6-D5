@@ -49,9 +49,12 @@ nav img {
 }
 #article-container .bg-container {
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 #article-container .bg-container img {
   width: 100%;
+  max-width: 65em;
 }
 #article-container .contentT-left,
 #article-container .contentT-right {
@@ -72,6 +75,16 @@ nav img {
   justify-content: center;
 }
 .carousel .carousel-item p {
+  color: white;
+}
+
+.card {
+  background-color: #23293c;
+}
+.card h5 {
+  color: white;
+}
+.card a {
   color: white;
 }
 

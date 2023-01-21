@@ -8,8 +8,11 @@
   }
   .bg-container {
     width: 100%;
+    display: flex;
+    justify-content: center;
     img {
       width: 100%;
+      max-width: 65em;
     }
   }
   .contentT-left,
@@ -34,5 +37,14 @@
   justify-content: center;
   .carousel-item p {
     color: $text-color;
+  }
+}
+.card {
+  background-color: $card-color;
+  h5 {
+    color: white;
+  }
+  a {
+    color: white;
   }
 }
