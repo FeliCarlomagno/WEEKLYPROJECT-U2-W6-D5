@@ -17,7 +17,7 @@ nav .ul-container {
 }
 nav .ul-container .icon-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 nav .ul-container .icon-container i {
   color: white;
@@ -31,7 +31,12 @@ nav ul {
 nav ul li {
   margin: 0 5px;
   font-size: 1.3em;
+  cursor: pointer;
   color: lightgray;
+}
+nav ul li:hover {
+  color: rgb(1, 237, 154);
+  transform: scale(1.05);
 }
 nav img {
   width: 100%;
@@ -81,11 +86,27 @@ nav img {
 .card {
   background-color: #23293c;
 }
+.card:hover {
+  transform: scale(1.1);
+  background-color: rgba(211, 211, 211, 0.5098039216);
+}
 .card h5 {
   color: white;
 }
 .card a {
   color: white;
+}
+
+#partnership i:hover {
+  color: rgb(1, 237, 154);
+}
+
+footer {
+  background-color: #23293c;
+}
+footer h5 img {
+  width: 100%;
+  max-width: 3em;
 }
 
 body {
