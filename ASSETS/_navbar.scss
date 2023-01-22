@@ -23,7 +23,12 @@ nav {
     li {
       margin: 0 5px;
       font-size: 1.3em;
+      cursor: pointer;
       color: lightgray;
+      &:hover {
+        color: $special-hover;
+        transform: scale(1.05);
+      }
     }
   }
   img {
