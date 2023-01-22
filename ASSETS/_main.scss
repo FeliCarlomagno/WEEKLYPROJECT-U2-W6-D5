@@ -17,7 +17,7 @@
   }
   .contentT-left,
   .contentT-right {
-    color: white;
+    color: $text-color;
   }
   .contentT-right p {
     font: {
@@ -42,11 +42,20 @@
 
 .card {
   background-color: $card-color;
-
+  &:hover {
+    transform: scale(1.1);
+    background-color: $light-gray-custom;
+  }
   h5 {
     color: white;
   }
   a {
     color: white;
+  }
+}
+
+#partnership i {
+  &:hover {
+    color: $special-hover;
   }
 }
