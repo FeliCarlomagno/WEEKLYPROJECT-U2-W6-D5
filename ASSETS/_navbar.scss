@@ -24,7 +24,7 @@ nav {
       margin: 0 5px;
       font-size: 1.3em;
       cursor: pointer;
-      color: lightgray;
+      color: $nav-borderB-color;
       &:hover {
         color: $special-hover;
         transform: scale(1.05);
